@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.spec
+
+# Distribution / PyInstaller build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Node.js / Frontend dependencies & caches
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+frontend/dist/
+
+# User Accounts, Credentials & Vault Keys (CRITICAL: Never commit credentials)
+accounts.json
+*.omex_vault
+.openmultiexplorer/
+*secret*
+*token*
+*credential*
+.env
+.env.*
+
+# Temporary / Scratch scripts & logs
+test_*.py
+*.log
+scratch/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
